@@ -1,0 +1,7 @@
+/.pytest_cache/
+/media/
+/static/
+*dev.py
+*.pyc
+*.log
+*.db
