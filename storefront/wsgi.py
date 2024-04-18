@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'storefront.settings.dev')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'storefront.settings.prod')
 
 application = get_wsgi_application()
