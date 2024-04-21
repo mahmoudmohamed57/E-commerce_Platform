@@ -1,11 +1,11 @@
-from store.permissions import IsAdminOrReadOnly, IsAuthenticatedOrReadOnly, ViewCustomerHistoryPermission
+from store.permissions import IsAdminOrReadOnly, ViewCustomerHistoryPermission
 from store.pagination import DefaultPagination
 from django.db.models.aggregates import Count
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.decorators import action
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.mixins import CreateModelMixin, DestroyModelMixin, RetrieveModelMixin
-from rest_framework.permissions import  IsAdminUser, IsAuthenticated
+from rest_framework.permissions import  IsAdminUser, IsAuthenticated, IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
