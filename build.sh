@@ -6,7 +6,7 @@ set -o errexit
 pip install -r requirements.txt
 
 # Inserting data in postgresql
-python manage.py seed_db
+# python manage.py seed_db
 
 # Convert static asset files
 python manage.py collectstatic --no-input
