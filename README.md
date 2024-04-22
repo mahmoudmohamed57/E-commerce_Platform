@@ -1,11 +1,16 @@
 #
-# Hello everybody I've developed a back-end e-commerce app for learning purposes.
+# Hello everybody I've developed a back-end E-commerce Platform for learning purposes.
+### Description of My E-commerce Platform.
+
+The E-commerce Platform is a back-end app where users can sign up, sign in, request products, assign to the collection, add to carts, make orders, and upload files using tools like Python, Django, Postgresql Database, Django Rest Framework, Django Rest Framework Nested Routers, Django Filter, Signals, Djoser, Django Rest framework Simple JWT Authentication, pillow, Whitenoise, Psycopg 2 Binary, Django Database Url,  Python Testing, Model Bakery, Locust, Django Silk and Gunicorn.
+
+#
 ### I am using Render to deploy my project.
 
 When you request any endpoint in the server for the first time and find the website is slow and takes 1 minute to respond because the server shuts itself and there were no requests for the last 15 minutes but after this if you request many times you find the server faster.
 
 #
-# Let's know more about my e-commerce app.
+# Let's know more about My E-commerce Platform.
 ### Sign up and Sign in using JWT Authentication.
 
 To sign up for an account:
@@ -62,7 +67,7 @@ To post, update, and delete a product you should assign the ID of the product:
 
 Link: https://e-commerce-render-platform-app.onrender.com/store/products/{productID}/
 
-To get, and post an orders:
+To get, and post orders:
 
 Link: https://e-commerce-render-platform-app.onrender.com/store/orders/
 
